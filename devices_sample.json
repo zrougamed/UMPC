@@ -1,0 +1,11 @@
+{"devices":[
+    {
+        "name":"Device1",
+        "token":"Token1"
+    },
+    {
+        "name":"Device2",
+        "token":"Token2"
+    }
+    ]
+}
