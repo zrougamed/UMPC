@@ -140,6 +140,7 @@ def mqtt_to_thingsboard(msg):
 
 def main():
     tb = TB("broker.hivemq.com", 1883) # IP or Hostname  for the MQTT Server 
+    # http://www.hivemq.com/demos/websocket-client/
     server = UdpServer(ADDR, callback=tb)
     try:
         print("Starting Server ...")
